@@ -1,0 +1,69 @@
+@import "vars";
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url(assets/fonts/Quicksand-Bold.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Light";
+  src: url(assets/fonts/Quicksand-Light.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url(assets/fonts/Quicksand-Medium.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url(assets/fonts/Quicksand-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  background-color: $primary;
+}
+body {
+  font-family: "Quicksand-Regular";
+}
+.line {
+  padding-top: 20px;
+  border-top: 1px solid $gray;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 90px;
+  align-items: center;
+  span {
+    color: $secondary;
+    font-size: $fz24;
+  }
+  input {
+    border: none;
+    &:visited {
+      border: none;
+    }
+  }
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  a {
+    color: $secondary;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    &:hover {
+      color: rgb(125, 125, 129);
+    }
+  }
+}
+.img1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}

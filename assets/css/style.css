@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url(assets/fonts/Quicksand-Bold.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Light";
+  src: url(assets/fonts/Quicksand-Light.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url(assets/fonts/Quicksand-Medium.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url(assets/fonts/Quicksand-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+body {
+  font-family: "Quicksand-Regular";
+}
+
+.line {
+  padding-top: 20px;
+  border-top: 1px solid #9c8c8c;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 90px;
+  align-items: center;
+}
+.header span {
+  color: #222222;
+  font-size: 24px;
+}
+.header input {
+  border: none;
+}
+.header input:visited {
+  border: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+nav a {
+  color: #222222;
+  text-decoration: none;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+nav a:hover {
+  color: rgb(125, 125, 129);
+}
+
+.img1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}/*# sourceMappingURL=style.css.map */
